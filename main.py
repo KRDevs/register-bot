@@ -7,7 +7,7 @@ from aiogram.fsm.state import State, StatesGroup
 from database import create_user, edit_user, db_start
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token="6900270837:AAEY5ubydVxT1hSZnZqcaO05gbrziDIpAxM")
+bot = Bot(token="Your token")
 dp = Dispatcher()
 
 
